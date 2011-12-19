@@ -1,0 +1,5 @@
+
+/app/tmp/cache/models/cake*
+/app/tmp/cache/persistent/cake*
+/app/tmp/cache/queries/cake*
+/app/tmp/logs/*.log
