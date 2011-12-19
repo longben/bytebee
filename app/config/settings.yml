@@ -1,0 +1,27 @@
+---
+Comment.date_time_format: M d, Y
+Comment.feed_limit: 10
+Comment.level: 1
+Hook.bootstraps: 
+Member.advi: 50
+Member.referrer: 10
+Member.register: 100
+Meta.description: Sinobee Content Management System
+Meta.generator: 'Croogo - Content Management System'
+Meta.keywords: sinobee, Sinobee
+Meta.robots: index, follow
+Reading.date_time_format: D, M d Y H:i:s
+Reading.nodes_per_page: 5
+Service.akismet_key: your-key
+Service.akismet_url: http://your-blog.com
+Service.recaptcha_private_key: your-private-key
+Service.recaptcha_public_key: your-public-key
+Site.email: support@bitbee.com
+Site.feed_url: 
+Site.locale: eng
+Site.status: 1
+Site.tagline: Sinobee Content Management System.
+Site.theme: 
+Site.timezone: +8
+Site.title: 成都一号通
+Writing.wysiwyg: 0

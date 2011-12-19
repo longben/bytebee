@@ -1,0 +1,14 @@
+html,body{
+  height:100%;width:100%
+}
+
+body{margin:0px;font-size:12px;color:#04415B;scrollbar-face-color:     #DEE3E7;
+              scrollbar-highlight-color:     #FFFFFF;
+              scrollbar-shadow-color:     #DEE3E7;
+              scrollbar-3dlight-color:     #D1D7DC;
+              scrollbar-arrow-color:       #006699;
+              scrollbar-track-color:     #EFEFEF;
+              scrollbar-darkshadow-color:     #98AAB1; }
+td{font-size:12px;line-height:20px;color:#04415B}
+a{color:#04415b;text-decoration:none;}
+a:hover{color:#ff0000;text-decoration:none;}

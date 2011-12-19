@@ -1,0 +1,56 @@
+﻿ALTER TABLE sinobee.user_metas
+ ADD avatar VARCHAR(255) AFTER cookie_token;
+
+
+ALTER TABLE sinobee.user_metas
+ ADD description VARCHAR(4000) AFTER avatar ;
+
+
+ALTER TABLE sinobee.user_metas
+ ADD department_id INT(10) AFTER role_id;
+
+
+ALTER TABLE sinobee.modules
+ CHANGE remark description VARCHAR(2000) COMMENT '简介';
+
+ALTER TABLE sinobee.modules
+ ADD lft INT(10) AFTER parent_id;
+
+
+ALTER TABLE sinobee.modules
+ ADD rght INT(10) AFTER lft;
+
+ALTER TABLE sinobee.modules
+ CHANGE module_image module_image VARCHAR(200) DEFAULT 'icon-nav' COMMENT '栏目图标 (限止大小、长度、宽度)';
+
+
+ALTER TABLE sinobee.members ADD role_id INT(10) AFTER id;
+
+ALTER TABLE sinobee.members ADD department_id INT(10) AFTER role_id;
+
+---------2011.10.25------------------------------
+ALTER TABLE codes ADD parent_id INT(20) AFTER id;
+ALTER TABLE codes ADD file_path varchar(100) AFTER category;
+ALTER TABLE codes ADD `order` INT(2) AFTER locale;
+
+
+---------2011.10.27------------------------------
+ALTER TABLE attachments ADD download_count INT(10) AFTER description;
+
+---------2011.10.28------------------------------
+ALTER TABLE cdyht.user_metas
+ ADD referrer INT(10) AFTER description,
+ ADD amount FLOAT(8,2) AFTER referrer,
+ ADD point INT(10) AFTER amount;
+
+ ALTER TABLE cdyht.roles ADD discount FLOAT(3,2) AFTER remark;
+
+---------2011.11.08------------------------------
+ALTER TABLE cdyht.user_metas CHANGE referrer referer INT(10);
+
+---------2011.11.11----------------------------------
+ALTER TABLE attachments CHANGE download_count download_count INT(10) DEFAULT '0';
+
+---------2011.11.17--------------------------------
+ALTER TABLE cdyht.commodities ADD click_count INT DEFAULT '0' AFTER flag;
+

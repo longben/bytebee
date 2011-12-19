@@ -1,0 +1,1707 @@
+@font-face {
+	font-family: AxelBold;
+	src: local("?"), url(../fonts/axel-bold-webfont.woff) format("woff"), url(../fonts/axel-bold-webfont.ttf) format("truetype"), url(../fonts/axel-bold-webfont.svg#webfontSiaPUq9p) format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: AxelRegular;
+	src: local("?"), url(../fonts/axel-regular-webfont.woff) format("woff"), url(../fonts/axel-regular-webfont.ttf) format("truetype"), url(../fonts/axel-regular-webfont.svg#webfont9U3nWnpv) format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+html {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; font-size: 100%; vertical-align: baseline;
+}
+body {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; font-size: 100%; vertical-align: baseline;
+}
+div {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; font-size: 100%; vertical-align: baseline;
+}
+span {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; font-size: 100%; vertical-align: baseline;
+}
+object {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; font-size: 100%; vertical-align: baseline;
+}
+iframe {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; font-size: 100%; vertical-align: baseline;
+}
+h1 {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; font-size: 100%; vertical-align: baseline;
+}
+h2 {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; font-size: 100%; vertical-align: baseline;
+}
+h3 {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; font-size: 100%; vertical-align: baseline;
+}
+h4 {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; font-size: 100%; vertical-align: baseline;
+}
+h5 {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; font-size: 100%; vertical-align: baseline;
+}
+h6 {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; font-size: 100%; vertical-align: baseline;
+}
+p {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; font-size: 100%; vertical-align: baseline;
+}
+blockquote {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; font-size: 100%; vertical-align: baseline;
+}
+pre {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; font-size: 100%; vertical-align: baseline;
+}
+abbr {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; font-size: 100%; vertical-align: baseline;
+}
+address {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; font-size: 100%; vertical-align: baseline;
+}
+cite {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; font-size: 100%; vertical-align: baseline;
+}
+code {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; font-size: 100%; vertical-align: baseline;
+}
+del {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; font-size: 100%; vertical-align: baseline;
+}
+dfn {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; font-size: 100%; vertical-align: baseline;
+}
+em {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; font-size: 100%; vertical-align: baseline;
+}
+img {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; font-size: 100%; vertical-align: baseline;
+}
+ins {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; font-size: 100%; vertical-align: baseline;
+}
+kbd {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; font-size: 100%; vertical-align: baseline;
+}
+q {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; font-size: 100%; vertical-align: baseline;
+}
+samp {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; font-size: 100%; vertical-align: baseline;
+}
+small {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; font-size: 100%; vertical-align: baseline;
+}
+strong {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; font-size: 100%; vertical-align: baseline;
+}
+sub {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; font-size: 100%; vertical-align: baseline;
+}
+sup {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; font-size: 100%; vertical-align: baseline;
+}
+var {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; font-size: 100%; vertical-align: baseline;
+}
+b {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; font-size: 100%; vertical-align: baseline;
+}
+i {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; font-size: 100%; vertical-align: baseline;
+}
+dl {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; font-size: 100%; vertical-align: baseline;
+}
+dt {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; font-size: 100%; vertical-align: baseline;
+}
+dd {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; font-size: 100%; vertical-align: baseline;
+}
+ol {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; font-size: 100%; vertical-align: baseline;
+}
+ul {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; font-size: 100%; vertical-align: baseline;
+}
+li {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; font-size: 100%; vertical-align: baseline;
+}
+fieldset {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; font-size: 100%; vertical-align: baseline;
+}
+form {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; font-size: 100%; vertical-align: baseline;
+}
+label {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; font-size: 100%; vertical-align: baseline;
+}
+legend {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; font-size: 100%; vertical-align: baseline;
+}
+table {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; font-size: 100%; vertical-align: baseline;
+}
+caption {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; font-size: 100%; vertical-align: baseline;
+}
+tbody {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; font-size: 100%; vertical-align: baseline;
+}
+tfoot {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; font-size: 100%; vertical-align: baseline;
+}
+thead {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; font-size: 100%; vertical-align: baseline;
+}
+tr {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; font-size: 100%; vertical-align: baseline;
+}
+th {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; font-size: 100%; vertical-align: baseline;
+}
+td {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; font-size: 100%; vertical-align: baseline;
+}
+article {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; font-size: 100%; vertical-align: baseline;
+}
+aside {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; font-size: 100%; vertical-align: baseline;
+}
+canvas {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; font-size: 100%; vertical-align: baseline;
+}
+details {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; font-size: 100%; vertical-align: baseline;
+}
+figcaption {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; font-size: 100%; vertical-align: baseline;
+}
+figure {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; font-size: 100%; vertical-align: baseline;
+}
+footer {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; font-size: 100%; vertical-align: baseline;
+}
+header {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; font-size: 100%; vertical-align: baseline;
+}
+hgroup {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; font-size: 100%; vertical-align: baseline;
+}
+menu {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; font-size: 100%; vertical-align: baseline;
+}
+nav {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; font-size: 100%; vertical-align: baseline;
+}
+section {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; font-size: 100%; vertical-align: baseline;
+}
+summary {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; font-size: 100%; vertical-align: baseline;
+}
+time {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; font-size: 100%; vertical-align: baseline;
+}
+mark {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; font-size: 100%; vertical-align: baseline;
+}
+audio {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; font-size: 100%; vertical-align: baseline;
+}
+video {
+	margin: 0px; padding: 0px; outline: 0px; border: 0px currentColor; font-size: 100%; vertical-align: baseline;
+}
+body {
+	line-height: 1;
+}
+article {
+	display: block;
+}
+aside {
+	display: block;
+}
+details {
+	display: block;
+}
+figcaption {
+	display: block;
+}
+figure {
+	display: block;
+}
+footer {
+	display: block;
+}
+header {
+	display: block;
+}
+hgroup {
+	display: block;
+}
+menu {
+	display: block;
+}
+nav {
+	display: block;
+}
+section {
+	display: block;
+}
+nav ul {
+	list-style: none;
+}
+blockquote {
+	quotes: none;
+}
+q {
+	quotes: none;
+}
+blockquote::before {
+	content: none;
+}
+blockquote::after {
+	content: none;
+}
+q::before {
+	content: none;
+}
+q::after {
+	content: none;
+}
+a {
+	margin: 0px; padding: 0px; font-size: 100%; vertical-align: baseline;
+}
+ins {
+	color: rgb(0, 0, 0); text-decoration: none; background-color: rgb(255, 255, 153);
+}
+mark {
+	color: rgb(0, 0, 0); font-style: italic; font-weight: bold; background-color: rgb(255, 255, 153);
+}
+del {
+	text-decoration: line-through;
+}
+abbr[title] {
+	cursor: help;
+}
+dfn[title] {
+	cursor: help;
+}
+table {
+	border-collapse: collapse; border-spacing: 0;
+}
+hr {
+	border-width: 1px 0px 0px; border-style: solid none none; border-color: rgb(204, 204, 204) currentColor currentColor; margin: 1em 0px; padding: 0px; height: 1px; display: block;
+}
+input {
+	vertical-align: middle;
+}
+select {
+	vertical-align: middle;
+}
+.inset_shadow {
+	box-shadow: inset 0px 1px 2px rgba(0,0,0,0.5), 0px 1px 1px #ffffff; -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.5), 0 1px 1px #ffffff; -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.5), 0 1px 1px #ffffff;
+}
+.no_shadow {
+	box-shadow: none; -webkit-box-shadow: none; -moz-box-shadow: none;
+}
+.green_button_normal {
+	background: rgb(0, 136, 0);
+}
+.green_button_hover {
+	background: rgb(0, 153, 0);
+}
+.green_button_active {
+	background: rgb(0, 102, 0);
+}
+.red_button_normal {
+	background: rgb(76, 12, 10);
+}
+.red_button_hover {
+	background: rgb(76, 12, 10);
+}
+.red_button_active {
+	background: rgb(76, 12, 10);
+}
+.inset_shadow {
+	box-shadow: inset 0px 1px 2px rgba(0,0,0,0.5), 0px 1px 1px #ffffff; -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.5), 0 1px 1px #ffffff; -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.5), 0 1px 1px #ffffff;
+}
+.no_shadow {
+	box-shadow: none; -webkit-box-shadow: none; -moz-box-shadow: none;
+}
+.green_button_normal {
+	background: rgb(0, 136, 0);
+}
+.green_button_hover {
+	background: rgb(0, 153, 0);
+}
+.green_button_active {
+	background: rgb(0, 102, 0);
+}
+.red_button_normal {
+	background: rgb(76, 12, 10);
+}
+.red_button_hover {
+	background: rgb(76, 12, 10);
+}
+.red_button_active {
+	background: rgb(76, 12, 10);
+}
+label {
+	margin: 0px; padding: 0px 30px 0px 0px; width: 130px; line-height: 38px; font-family: "AxelBold", "Lucida Grande", "Verdana", sans-serif; font-size: 18px; font-weight: normal; float: left; display: block; text-shadow: 0 1px 0 #ffffff;
+}
+.extra_wide label {
+	width: 240px;
+}
+.widget {
+	width: 700px; float: left;
+}
+.extra_wide .widget {
+	width: 600px;
+}
+p.help_text {
+	margin: 10px 0px 0px; color: rgb(85, 85, 85); line-height: 18px; clear: both; font-family: "Lucida Grande", "Verdana", sans-serif; font-size: 13px; font-weight: normal; float: left;
+}
+.errorlist {
+	background: rgb(153, 0, 0); margin: 0px 0px 15px; padding: 5px 10px; border-radius: 4px; color: rgb(255, 255, 255); line-height: 18px; font-family: "Lucida Grande", "Verdana", sans-serif; font-size: 13px; font-weight: bold; list-style-type: none; box-shadow: inset 0px 1px 2px rgba(0,0,0,0.5), 0px 1px 1px #ffffff; -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.5), 0 1px 1px #ffffff; -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.5), 0 1px 1px #ffffff; text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5); -webkit-border-radius: 4px; -moz-border-radius: 4px;
+}
+input[type='text'] {
+	background: rgb(204, 204, 204); padding: 6px 10px; border-radius: 3px; border: currentColor; width: 250px; color: rgb(68, 68, 68); line-height: 24px; font-family: "AxelRegular", "Lucida Grande", "Verdana", sans-serif; font-size: 18px; font-weight: normal; float: left; box-shadow: inset 0px 1px 2px rgba(0,0,0,0.5), 0px 1px 1px #ffffff; -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.5), 0 1px 1px #ffffff; -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.5), 0 1px 1px #ffffff; text-shadow: 0 1px 1px #ffffff; -webkit-border-radius: 3px; -moz-border-radius: 3px; -webkit-background-clip: padding-box;
+}
+input[type='password'] {
+	background: rgb(204, 204, 204); padding: 6px 10px; border-radius: 3px; border: currentColor; width: 250px; color: rgb(68, 68, 68); line-height: 24px; font-family: "AxelRegular", "Lucida Grande", "Verdana", sans-serif; font-size: 18px; font-weight: normal; float: left; box-shadow: inset 0px 1px 2px rgba(0,0,0,0.5), 0px 1px 1px #ffffff; -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.5), 0 1px 1px #ffffff; -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.5), 0 1px 1px #ffffff; text-shadow: 0 1px 1px #ffffff; -webkit-border-radius: 3px; -moz-border-radius: 3px; -webkit-background-clip: padding-box;
+}
+textarea {
+	background: rgb(204, 204, 204); padding: 6px 10px; border-radius: 3px; border: currentColor; width: 250px; color: rgb(68, 68, 68); line-height: 24px; font-family: "AxelRegular", "Lucida Grande", "Verdana", sans-serif; font-size: 18px; font-weight: normal; float: left; box-shadow: inset 0px 1px 2px rgba(0,0,0,0.5), 0px 1px 1px #ffffff; -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.5), 0 1px 1px #ffffff; -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.5), 0 1px 1px #ffffff; text-shadow: 0 1px 1px #ffffff; -webkit-border-radius: 3px; -moz-border-radius: 3px; -webkit-background-clip: padding-box;
+}
+input[type='checkbox'] {
+	margin: 13px 0px 0px; float: left;
+}
+input[type='text']:focus {
+	background: rgb(255, 255, 255);
+}
+input[type='password']:focus {
+	background: rgb(255, 255, 255);
+}
+textarea:focus {
+	background: rgb(255, 255, 255);
+}
+textarea {
+	width: 680px; height: 10em; font-size: 16px; float: left; overflow-x: hidden;
+}
+select:disabled {
+	color: rgb(0, 0, 0);
+}
+.inset_shadow {
+	box-shadow: inset 0px 1px 2px rgba(0,0,0,0.5), 0px 1px 1px #ffffff; -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.5), 0 1px 1px #ffffff; -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.5), 0 1px 1px #ffffff;
+}
+.no_shadow {
+	box-shadow: none; -webkit-box-shadow: none; -moz-box-shadow: none;
+}
+.green_button_normal {
+	background: rgb(0, 136, 0);
+}
+.green_button_hover {
+	background: rgb(0, 153, 0);
+}
+.green_button_active {
+	background: rgb(0, 102, 0);
+}
+.red_button_normal {
+	background: rgb(76, 12, 10);
+}
+.red_button_hover {
+	background: rgb(76, 12, 10);
+}
+.red_button_active {
+	background: rgb(76, 12, 10);
+}
+html {
+	background: url("../img/bg-grain.png") 0px 0px rgb(38, 55, 72); height: 100%;
+}
+html body {
+	background: url("../img/bg-grain.png") 0px 0px rgb(38, 55, 72); height: 100%;
+}
+html #page {
+	left: 0px; top: 0px; right: 0px; bottom: 0px;
+}
+html #page {
+	position: absolute; z-index: 2;
+}
+html #rad-grad {
+	position: fixed;
+}
+html #header {
+	padding: 100px 0px 0px;
+}
+html #branding {
+	background-position: 110px 0px; padding-left: 188px;
+}
+html .container {
+	width: 500px;
+}
+html #content {
+	padding: 30px 0px; border: currentColor; position: relative; z-index: 3;
+}
+html form {
+	margin: 10px; border-radius: 13px; box-shadow: 0px 0px 10px rgba(0,0,0,0.5); -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); -webkit-border-radius: 13px; -moz-border-radius: 13px;
+}
+html form .input {
+	background: rgb(238, 238, 238); padding: 5px 15px; overflow: hidden; border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(201, 201, 201); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid; text-shadow: 0 1px 1px #ffffff;
+}
+
+html form .submit {
+	background: rgb(238, 238, 238); padding: 5px 15px; overflow: hidden; border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(201, 201, 201); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid; text-shadow: 0 1px 1px #ffffff;
+}
+
+
+html form .header.field {
+	background: rgb(40, 127, 188);
+}
+html form .header.field {
+	padding: 10px 20px; border: currentColor;
+}
+html form .header.field h1 {
+	margin: 0px; color: rgb(255, 255, 255); line-height: 32px; font-family: "AxelBold", "Lucida Grande", "Verdana", sans-serif; font-size: 24px; font-weight: normal; text-shadow: 0 1px 1px #000000;
+}
+html form :first-child.field {
+	border-radius: 13px 13px 0px 0px; -webkit-border-radius: 13px 13px 0 0; -moz-border-radius: 13px 13px 0 0;
+}
+html form :last-child.field {
+	border-radius: 0px 0px 13px 13px; -webkit-border-radius: 0 0 13px 13px; -moz-border-radius: 0 0 13px 13px;
+}
+html #footer a {
+	padding: 0px 5px; color: rgb(137, 169, 204); border-right-color: rgb(47, 66, 86); border-right-width: 1px; border-right-style: solid; -webkit-transition-duration: 0.15s;
+}
+html #footer li:last-child a {
+	border: currentColor;
+}
+html #footer a:hover {
+	color: rgb(255, 255, 255);
+}
+html .green_button {
+	margin: 0px; padding: 0px 15px; height: 36px; line-height: 36px; font-size: 16px;
+}
+.inset_shadow {
+	box-shadow: inset 0px 1px 2px rgba(0,0,0,0.5), 0px 1px 1px #ffffff; -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.5), 0 1px 1px #ffffff; -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.5), 0 1px 1px #ffffff;
+}
+.no_shadow {
+	box-shadow: none; -webkit-box-shadow: none; -moz-box-shadow: none;
+}
+.green_button_normal {
+	background: rgb(0, 136, 0);
+}
+.green_button_hover {
+	background: rgb(0, 153, 0);
+}
+.green_button_active {
+	background: rgb(0, 102, 0);
+}
+.red_button_normal {
+	background: rgb(76, 12, 10);
+}
+.red_button_hover {
+	background: rgb(76, 12, 10);
+}
+.red_button_active {
+	background: rgb(76, 12, 10);
+}
+html.email #header {
+	padding: 10px 0px;
+}
+html.email #content {
+	padding: 0px;
+}
+html {
+	height: 100%; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility;
+}
+body {
+	background: url("../img/bg-sketchy-no-gradient.png") fixed repeat-x 0px 0px rgb(225, 225, 225); color: rgb(68, 68, 68); line-height: 1.5; font-family: "AxelRegular", "Lucida Grande", "Verdana", sans-serif; font-size: 16px; font-weight: normal;
+}
+a {
+	text-decoration: none;
+}
+a:focus {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+.container {
+	margin: 0px auto; width: 960px; overflow: hidden;
+}
+._iphone {
+	display: none;
+}
+#header {
+	background: url("../img/bg-grain.png") 0px 0px rgb(38, 55, 72); padding: 0px;
+}
+#branding {
+	background: url("../img/icon-64.png") no-repeat 0px 0px; padding-left: 78px; float: left; text-shadow: 0 0px 3px rgba(0, 0, 0, 0.5);
+}
+#profile_bar {
+	padding: 3px 0px; color: white; font-size: 14px; margin-bottom: 20px; background-color: rgb(34, 34, 34);
+}
+#profile_bar .team {
+	padding-right: 60px; float: left;
+}
+#profile_bar .team label {
+	padding: 0px; width: 110px;
+}
+#profile_bar a {
+	color: rgb(149, 184, 221); text-decoration: none;
+}
+#profile_bar ul {
+	float: right; list-style-type: none;
+}
+#profile_bar ul li {
+	float: left;
+}
+#profile_bar ul li a {
+	padding: 0px 14px; display: block;
+}
+#profile_bar ul li span {
+	padding: 0px 14px; display: block;
+}
+#profile_bar ul li a {
+	color: rgb(171, 189, 208); border-left-color: rgb(54, 54, 54); border-left-width: medium; border-left-style: groove;
+}
+#profile_bar ul li:last-child a {
+	border-right-color: currentColor; border-right-width: 0px; border-right-style: none;
+}
+#profile_bar ul li a:hover {
+	color: rgb(255, 255, 255);
+}
+#profile_bar img {
+	border: 1px solid white; margin-right: 5px; vertical-align: middle;
+}
+#header h1 {
+	color: rgb(255, 255, 255); line-height: 1.25; font-family: "AxelBold", "Lucida Grande", "Verdana", sans-serif; font-size: 36px; font-weight: normal;
+}
+#header h1 a {
+	color: rgb(255, 255, 255);
+}
+#header p {
+	color: rgb(107, 138, 172); line-height: 1.25; font-size: 16px;
+}
+#nav {
+	float: right; list-style-type: none;
+}
+#nav li {
+	color: rgb(149, 184, 221); line-height: 21px; font-size: 16px; float: left;
+}
+#nav li a {
+	padding: 8px 14px; display: block;
+}
+#nav li span {
+	padding: 8px 14px; display: block;
+}
+#nav li a {
+	background: rgba(0, 0, 0, 0.5); color: rgb(171, 189, 208); border-right-color: rgba(0, 0, 0, 0.25); border-left-color: rgba(255, 255, 255, 0.05); border-right-width: 1px; border-left-width: 1px; border-right-style: solid; border-left-style: solid;
+}
+#nav li:nth-child(1) a {
+	border-radius: 8px 0px 0px 8px; -webkit-border-radius: 8px 0 0 8px; -moz-border-radius: 8px 0 0 8px;
+}
+#nav li:last-child a {
+	border-radius: 0px 8px 8px 0px; -webkit-border-radius: 0 8px 8px 0; -moz-border-radius: 0 8px 8px 0;
+}
+#nav li a:hover {
+	background: rgb(0, 88, 161); color: rgb(255, 255, 255); text-shadow: 0 1px 1px #003460;
+}
+#nav li a.active {
+	background: rgb(0, 88, 161); color: rgb(255, 255, 255); text-shadow: 0 1px 1px #003460;
+}
+.page_header {
+	background: rgb(221, 221, 221); padding: 10px 0px; overflow: hidden; border-top-color: rgb(255, 255, 255); border-bottom-color: rgba(0, 0, 0, 0.4); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid;
+}
+.page_header h2 {
+	margin: 0px; padding: 0px; color: rgb(51, 51, 51); line-height: 42px; letter-spacing: -1px; font-family: "AxelBold", "Lucida Grande", "Verdana", sans-serif; font-size: 28px; font-weight: normal; float: left; text-shadow: 0 1px 1px #ffffff;
+}
+.red_button {
+	margin: 5px; padding: 0px 15px; border-radius: 4px; border: 1px solid rgb(0, 78, 0); height: 32px; color: rgb(255, 255, 255) !important; line-height: 32px; font-family: "Lucida Grande", "Verdana", sans-serif; font-size: 13px; font-weight: bold; text-decoration: none; float: right; display: block; cursor: pointer; text-shadow: 0 1px 2px rgba(0, 0, 0, 0.66); -webkit-border-radius: 4px; -moz-border-radius: 4px; -webkit-background-clip: padding-box;
+}
+.green_button {
+	margin: 5px; padding: 0px 15px; border-radius: 4px; border: 1px solid rgb(0, 78, 0); height: 32px; color: rgb(255, 255, 255) !important; line-height: 32px; font-family: "Lucida Grande", "Verdana", sans-serif; font-size: 13px; font-weight: bold; text-decoration: none; float: right; display: block; cursor: pointer; text-shadow: 0 1px 2px rgba(0, 0, 0, 0.66); -webkit-border-radius: 4px; -moz-border-radius: 4px; -webkit-background-clip: padding-box;
+}
+.grey_button {
+	margin: 5px; padding: 0px 15px; border-radius: 4px; border: 1px solid rgb(0, 78, 0); height: 32px; color: rgb(255, 255, 255) !important; line-height: 32px; font-family: "Lucida Grande", "Verdana", sans-serif; font-size: 13px; font-weight: bold; text-decoration: none; float: right; display: block; cursor: pointer; text-shadow: 0 1px 2px rgba(0, 0, 0, 0.66); -webkit-border-radius: 4px; -moz-border-radius: 4px; -webkit-background-clip: padding-box;
+}
+.already_a_user .green_button {
+	margin: 10px auto !important; width: 175px; float: none; display: block;
+}
+#header ul li a#install_apps {
+	background: rgb(0, 136, 0); box-shadow: inset 0px 1px 2px rgba(0,0,0,0.5), 0px 1px 1px #ffffff; -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.5), 0 1px 1px #ffffff; -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.5), 0 1px 1px #ffffff;
+}
+.green_button {
+	background: rgb(0, 136, 0); box-shadow: inset 0px 1px 2px rgba(0,0,0,0.5), 0px 1px 1px #ffffff; -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.5), 0 1px 1px #ffffff; -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.5), 0 1px 1px #ffffff;
+}
+.red_button {
+	background: rgb(76, 12, 10); box-shadow: inset 0px 1px 2px rgba(0,0,0,0.5), 0px 1px 1px #ffffff; -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.5), 0 1px 1px #ffffff; -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.5), 0 1px 1px #ffffff;
+}
+#header ul li a#install_apps {
+	color: rgb(255, 255, 255); line-height: 21px; font-family: "Lucida Grande", "Verdana", sans-serif; font-size: 14px; font-weight: bold; box-shadow: none; -webkit-box-shadow: none; -moz-box-shadow: none; text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
+}
+.green_button:hover {
+	background: rgb(0, 153, 0);
+}
+.green_button:active {
+	background: rgb(0, 102, 0);
+}
+.red_button:hover {
+	background: rgb(76, 12, 10);
+}
+.red_button:active {
+	background: rgb(76, 12, 10);
+}
+.upload_button {
+	background: url("../img/icon_arrow_up_white_16.png") no-repeat 10px rgb(0, 136, 0); padding-left: 30px;
+}
+.upload_button:hover {
+	background: url("../img/icon_arrow_up_white_16.png") no-repeat 10px rgb(0, 102, 0);
+}
+.upload_button:active {
+	background: url("../img/icon_arrow_up_white_16.png") no-repeat 10px rgb(0, 102, 0);
+}
+.invite_tester {
+	background: url("../img/icon_invite_16.png") no-repeat 10px rgb(0, 136, 0);
+}
+.invite_tester:hover {
+	background: url("../img/icon_invite_16.png") no-repeat 10px rgb(0, 153, 0);
+}
+.invite_button:active {
+	background: url("../img/icon_invite_16.png") no-repeat 10px rgb(0, 102, 0);
+}
+#content {
+	padding: 15px 0px 10px;
+}
+.default #content .container {
+	margin: 15px auto; border-radius: 13px; box-shadow: 0px 0px 10px rgba(0,0,0,0.5); -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); -webkit-border-radius: 13px; -moz-border-radius: 13px;
+}
+#content h1 {
+	line-height: 30px; font-family: "AxelBold", "Lucida Grande", "Verdana", sans-serif; font-size: 26px; font-weight: normal;
+}
+#content .body p {
+	margin: 0.25em 0px 1em; color: rgb(119, 119, 119); line-height: 21px;
+}
+#content p.body {
+	margin: 0.25em 0px 1em; color: rgb(119, 119, 119); line-height: 21px;
+}
+.build {
+	background: rgb(240, 240, 240); padding: 20px 16px 20px 25px; overflow: hidden; border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(201, 201, 201); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid; text-shadow: 0 1px 1px #ffffff;
+}
+:first-child.build {
+	border-top-left-radius: 13px; border-top-right-radius: 13px; -webkit-border-top-left-radius: 13px; -webkit-border-top-right-radius: 13px; -moz-border-radius-topleft: 13px; -moz-border-radius-topright: 13px;
+}
+:last-child.build {
+	border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; -webkit-border-bottom-left-radius: 13px; -webkit-border-bottom-right-radius: 13px; -moz-border-radius-bottomleft: 13px; -moz-border-radius-bottomright: 13px;
+}
+.build a {
+	color: rgb(51, 102, 255); text-decoration: none;
+}
+.buid a:hover {
+	background: rgb(204, 218, 255); color: rgb(0, 57, 230); text-decoration: none; border-bottom-color: rgb(204, 218, 255); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.build h4 {
+	margin: 5px 0px 0px; color: rgb(51, 51, 51); line-height: 24px; font-family: "AxelBold", "Lucida Grande", "Verdana", sans-serif; font-size: 21px; font-weight: normal;
+}
+.build h4 abbr {
+	color: rgb(153, 153, 153); text-transform: uppercase; line-height: 24px; font-family: "AxelRegular", "Lucida Grande", "Verdana", sans-serif; font-size: 14px; font-weight: normal; margin-left: 10px; border-bottom-color: rgb(187, 187, 187); border-bottom-width: 1px; border-bottom-style: dotted;
+}
+.build .type {
+	color: rgb(0, 102, 187); line-height: 16px; font-family: "Lucida Grande", "Verdana", sans-serif; font-size: 10px; font-weight: bold;
+}
+.build h4 abbr:hover {
+	color: rgb(85, 85, 85); border-bottom-color: rgb(153, 153, 153); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.build .icon {
+	border-radius: 12px; margin-right: 15px; float: left; -webkit-border-radius: 12px; -moz-border-radius: 12px;
+}
+.build .info {
+	float: left;
+}
+.build ul.tools {
+	margin: 10px 0px 0px; padding: 0px; list-style-type: none;
+}
+.build ul.tools li {
+	height: 16px; line-height: 16px; font-size: 14px; margin-right: 20px; float: left;
+}
+.build ul.tools li a {
+	color: rgb(153, 153, 153); padding-left: 20px; display: block; background-repeat: no-repeat; text-shadow: 0 1px 1px #ffffff;
+}
+.build ul.tools li a:hover {
+	background-position: 0px -16px; color: rgb(85, 85, 85);
+}
+.build ul.tools li a.configure {
+	background-image: url("../img/icon_configure_16.png");
+}
+.build ul.tools li a.previous_builds {
+	background-image: url("../img/icon_previous_builds_16.png");
+}
+.build ul.tools li a.testers {
+	background-image: url("../img/icon_user_16.png");
+}
+.build ul.tools li a.report {
+	background-image: url("../img/icon_analytics_16.png");
+}
+.build ul.tools li a.feedback {
+	background-image: none;
+}
+.build .downloads ul.tools {
+	float: right;
+}
+.build .downloads ul.tools {
+	margin: 0px;
+}
+.build .downloads ul.tools li {
+	margin: 0px;
+}
+.build .downloads ul.tools li a {
+	background-position: right 0px; padding: 0px 20px 0px 0px; margin-top: 5px; background-image: url("../img/icon_analytics_16.png");
+}
+.build ul.tools li a.feedback {
+	padding-left: 0px;
+}
+.build ul.tools li a.feedback span {
+	font: 12px/13px AxelRegular, sans-serif; margin: 0px 3px 0px 0px; padding: 1px 0px 0px; width: 24px; height: 19px; text-align: center; color: rgb(255, 255, 255); float: left; font-size-adjust: none; font-stretch: normal; background-image: url("../img/icon_feedback.png");
+}
+.build .downloads ul.tools li a:hover {
+	background-position: right -16px;
+}
+.build .device {
+	background-position: 0px; width: 125px; height: 48px; padding-left: 48px; float: right; background-repeat: no-repeat;
+}
+.build .iphone.device {
+	background-image: url("../img/device_iphone.png");
+}
+.build .ipod.device {
+	background-image: url("../img/device_iphone.png");
+}
+.build .ipad.device {
+	background-image: url("../img/device_ipad.png");
+}
+.build .universal.device {
+	background-image: url("../img/device_universal.png");
+}
+.build .device p {
+	margin: 6px 0px 0px; color: rgb(153, 153, 153); line-height: 18px; font-weight: normal; float: left;
+}
+.build .device p small {
+	color: rgb(85, 85, 85); display: block;
+}
+.build .device p span.build_type {
+	font: 12px/13px AxelRegular, sans-serif; padding: 5px; border-radius: 4px; border: 1px solid rgb(170, 170, 170); font-size-adjust: none; font-stretch: normal; -webkit-border-radius: 4px; -moz-border-radius: 4px;
+}
+.build .downloads {
+	width: 150px; text-align: right; float: right;
+}
+.build .downloads p {
+	margin: 0px;
+}
+.build .downloads .count {
+	background: url("../img/icon_arrow_down_16.png") no-repeat right 0px; color: rgb(85, 85, 85); line-height: 16px; padding-right: 18px; font-family: "AxelBold", "Lucida Grande", "Verdana", sans-serif; font-size: 16px; font-weight: normal;
+}
+.build .downloads .none.count {
+	background-position: right -16px; color: rgb(157, 157, 157);
+}
+.build .downloads small {
+	color: rgb(119, 119, 119); line-height: 18px; clear: both; font-family: "AxelRegular", "Lucida Grande", "Verdana", sans-serif; font-size: 14px; font-weight: normal; display: block;
+}
+.build .downloads .verify {
+	margin: 0px 0px 5px; line-height: 28px;
+}
+.blank_slate {
+	border-radius: 13px; text-align: center; -webkit-border-radius: 13px; -moz-border-radius: 13px;
+}
+.blank_slate img {
+	margin: 20px 0px;
+}
+.blank_slate h1 {
+	color: rgb(51, 51, 51); line-height: 42px; letter-spacing: -1px; font-family: "AxelBold", "Lucida Grande", "Verdana", sans-serif; font-size: 36px; font-weight: normal; margin-bottom: 0px;
+}
+.blank_slate p {
+	font-size: 18px;
+}
+.blank_slate a.green_button {
+	margin: 30px auto 0px; padding: 0px 0px 0px 20px; width: 170px; height: 48px; line-height: 48px; font-size: 16px; float: none;
+}
+div.testers .tester {
+	padding: 15px 0px; overflow: hidden; border-top-color: rgba(255, 255, 255, 0.4); border-bottom-color: rgba(0, 0, 0, 0.07); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid;
+}
+.testers :first-child.tester {
+	border-top-color: currentColor; border-top-width: medium; border-top-style: none;
+}
+.testers :last-child.tester {
+	border-bottom-color: currentColor; border-bottom-width: medium; border-bottom-style: none;
+}
+.testers input[type='checkbox'] {
+	margin: 14px; height: 12px; float: left;
+}
+.testers label {
+	padding: 0px; width: auto; cursor: pointer;
+}
+.testers img.icon {
+	border-radius: 0px; -webkit-border-radius: 0; -moz-border-radius: 0;
+}
+.testers .tester .name {
+	line-height: 20px; font-family: "AxelBold", "Lucida Grande", "Verdana", sans-serif; font-size: 16px; font-weight: normal; float: left;
+}
+.testers .tester .email {
+	margin: 0px; line-height: 20px; clear: left; float: left; display: block;
+}
+.build .tester .device {
+	background-position: right; width: auto; height: 38px; text-align: right; padding-top: 2px; padding-right: 46px; clear: right; margin-bottom: 20px; float: right;
+}
+.testers .tester .device p {
+	margin: 0px; color: rgb(68, 68, 68); line-height: 20px; font-family: "AxelBold", "Trebuchet MS", sans-serif;
+}
+.testers ul.unclaimed_devices {
+	float: right; display: none;
+}
+.testers .unclaimed_devices .device {
+	margin: 0px; padding: 0px; border: currentColor; height: auto; text-align: left; clear: both; float: none; list-style-type: disc;
+}
+.build .testers .unclaimed_devices .device p {
+	float: none;
+}
+.build .tester :last-child.device {
+	margin-bottom: 0px;
+}
+.build .report.tester .tester_device_list {
+	float: right;
+}
+.build .tester .device_summary {
+	overflow: hidden; margin-bottom: 20px;
+}
+.build .report.tester :last-child.device_summary {
+	margin: 0px;
+}
+.build .report.tester .device {
+	clear: none; float: right;
+}
+.build .tester .device abbr {
+	color: rgb(119, 119, 119); line-height: 18px; font-family: "AxelRegular", "Lucida Grande", "Verdana", sans-serif; font-size: 14px; font-weight: normal;
+}
+#notify_testers {
+	width: 700px; float: left;
+}
+#notify_testers label {
+	margin: 0px; padding: 0px 0px 0px 14px; float: none; display: inline;
+}
+#notify_testers .help_text {
+	margin: 2px 0px 0px 25px; color: rgb(153, 153, 153);
+}
+#footer .remove {
+	background: rgb(170, 9, 0); padding: 4px 8px; border-radius: 4px; color: rgb(255, 255, 255); line-height: 16px; font-family: "Lucida Grande", "Verdana", sans-serif; font-size: 11px; font-weight: bold; float: left; display: block; -webkit-border-radius: 4px; -moz-border-radius: 4px; -webkit-transition-duration: 0.15s;
+}
+#footer .remove:hover {
+	background: rgb(51, 51, 51);
+}
+.timer {
+	background: rgb(68, 68, 68); margin: 5px 0px 0px 30px; padding: 0px 10px; border-radius: 4px; height: 32px; text-align: center; color: rgb(255, 255, 255); line-height: 32px; font-size: 21px; float: right; box-shadow: inset 0px 1px 2px rgba(0,0,0,0.5), 0px 1px 1px #ffffff; -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.5), 0 1px 1px #ffffff; -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.5), 0 1px 1px #ffffff; text-shadow: 0 -1px 1px #000000; -webkit-border-radius: 4px; -moz-border-radius: 4px;
+}
+.tester_list .tester .icon {
+	border-radius: 0px; height: 40px; float: left; -webkit-border-radius: 0; -moz-border-radius: 0;
+}
+.tester_list .tester .name {
+	margin: 0px; line-height: 42px; font-size: 16px; float: left;
+}
+.tester_list .tester .name a {
+	margin-left: 10px;
+}
+.tester_list .tester .name small {
+	margin-left: 10px;
+}
+.tester_list .tester .name small {
+	color: rgb(153, 153, 153);
+}
+.tester_list .tester .devices {
+	background: rgb(249, 249, 249); padding: 5px 15px; border-radius: 8px; border: 1px solid rgb(221, 221, 221); line-height: 18px; clear: both; font-family: "Lucida Grande", "Verdana", sans-serif; font-size: 12px; font-weight: normal; -webkit-border-radius: 8px; -moz-border-radius: 8px;
+}
+.compact_device_list {
+	background: rgb(249, 249, 249); padding: 5px 15px; border-radius: 8px; border: 1px solid rgb(221, 221, 221); line-height: 18px; clear: both; font-family: "Lucida Grande", "Verdana", sans-serif; font-size: 12px; font-weight: normal; -webkit-border-radius: 8px; -moz-border-radius: 8px;
+}
+.compact_device_list label {
+	margin: 0px; padding: 0px 10px 0px 0px; line-height: 18px; font-family: "Lucida Grande", "Verdana", sans-serif; font-size: 12px; font-weight: bold; float: none; display: inline; text-shadow: none;
+}
+.compact_device_list input[type='checkbox'] {
+	margin: 0px 460px 0px 0px; float: right;
+}
+.tester_list .tester .compact_device_list.devices {
+	margin-left: 57px; display: none;
+}
+.compact_device_list p {
+	margin: 15px 0px 15px 10px; color: rgb(153, 153, 153);
+}
+.compact_device_list ul {
+	margin: 10px; list-style-type: none;
+}
+.compact_device_list ul li {
+	margin: 5px 0px;
+}
+.compact_device_list a {
+	color: rgb(136, 136, 136);
+}
+.compact_device_list a.remove {
+	margin: 0px 5px; color: rgb(51, 102, 255); line-height: 14px; font-family: "Lucida Grande", "Verdana", sans-serif; font-size: 11px; font-weight: normal; border-bottom-color: currentColor; border-bottom-width: medium; border-bottom-style: none;
+}
+.compact_device_list a:hover {
+	color: rgb(34, 34, 34);
+}
+.compact_device_list a.hover {
+	color: rgb(34, 34, 34);
+}
+.compact_device_list strong {
+	width: 190px; float: left; display: block;
+}
+form.user-profile .compact_device_list {
+	margin-bottom: 10px;
+}
+.tester_list .tester .info {
+	text-align: right; float: right;
+}
+.tester_list .tester .status {
+	background-position: right 0px; margin: 0px; line-height: 21px; padding-right: 21px; background-repeat: no-repeat;
+}
+.tester_list .accepted.tester .status {
+	background-image: url("../img/icon_accepted_16.png");
+}
+.tester_list .pending.tester .status {
+	color: rgb(153, 153, 153); background-image: url("../img/icon_not_accepted_16.png");
+}
+.tester_list .tester .delete {
+	margin: 5px 0px 0px; color: rgb(153, 153, 153); line-height: 14px; font-family: "Lucida Grande", "Verdana", sans-serif; font-size: 11px; font-weight: normal;
+}
+a .delete {
+	margin: 5px 0px 0px; color: rgb(51, 102, 255); line-height: 14px; font-family: "Lucida Grande", "Verdana", sans-serif; font-size: 11px; font-weight: normal;
+}
+.stats_overview {
+	width: 100%; margin-top: 15px;
+}
+.stats_overview td {
+	padding: 0px 10px 0px 0px;
+}
+.stats_overview p {
+	background: rgb(255, 255, 255); padding: 5px; border-radius: 4px; text-align: center; color: rgb(119, 119, 119); box-shadow: inset 0px 1px 2px rgba(0,0,0,0.5), 0px 1px 1px #ffffff; -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.5), 0 1px 1px #ffffff; -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.5), 0 1px 1px #ffffff; text-shadow: 0 -1px 1px #ffffff; -webkit-border-radius: 4px; -moz-border-radius: 4px;
+}
+.stats_overview p.errors {
+	background: rgb(153, 0, 0); color: rgb(255, 255, 255); font-family: "AxelBold", "Trebuchet MS", sans-serif; text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.66);
+}
+.stats_overview p.feedbacks {
+	background: rgb(12, 153, 15); color: rgb(255, 255, 255); font-family: "AxelBold", "Trebuchet MS", sans-serif; text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.66);
+}
+.stats_overview p.download {
+	background: rgb(48, 90, 135); color: rgb(255, 255, 255); font-family: "AxelBold", "Trebuchet MS", sans-serif; text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.66);
+}
+.copy-device-udid {
+	
+}
+.release_notes.build h2 {
+	line-height: 32px; font-family: "AxelBold", "Lucida Grande", "Verdana", sans-serif; font-size: 18px; font-weight: normal;
+}
+#content .release_notes.build .body p {
+	line-height: 1.5em; font-family: "AxelRegular", "Lucida Grande", "Verdana", sans-serif; font-size: 21px; font-weight: normal;
+}
+#content .release_notes.build p.body {
+	line-height: 1.5em; font-family: "AxelRegular", "Lucida Grande", "Verdana", sans-serif; font-size: 21px; font-weight: normal;
+}
+.release_notes.build .meta p {
+	line-height: 32px; overflow: hidden; font-family: "AxelRegular", "Lucida Grande", "Verdana", sans-serif; font-size: 18px; font-weight: normal;
+}
+.release_notes.build .meta p strong {
+	width: 120px; color: rgb(68, 68, 68); line-height: 32px; font-family: "AxelBold", "Lucida Grande", "Verdana", sans-serif; font-size: 18px; font-weight: normal; float: left; display: block;
+}
+.green_button.install_build_details {
+	background: rgb(0, 102, 187);
+}
+.blue_button {
+	background: rgb(0, 102, 187);
+}
+#footer {
+	padding-bottom: 30px;
+}
+#footer ul {
+	overflow: hidden; float: right; list-style-type: none;
+}
+#footer ul li {
+	margin-right: 5px; float: left;
+}
+.default #footer ul li a {
+	background: rgba(255, 255, 255, 0.5); padding: 0px 4px; border-radius: 4px; color: rgb(0, 102, 187); line-height: 16px; font-family: "Lucida Grande", "Verdana", sans-serif; font-size: 10px; font-weight: bold; display: block; -webkit-border-radius: 4px; -moz-border-radius: 4px;
+}
+.default #footer ul li a:hover {
+	background: rgb(0, 102, 187); color: rgb(255, 255, 255);
+}
+#subnav {
+	padding-top: 30px; border-top-color: rgb(255, 255, 255); border-top-width: 1px; border-top-style: solid;
+}
+#subnav ul {
+	overflow: hidden; list-style-type: none;
+}
+#subnav ul li {
+	margin-right: 5px; float: left;
+}
+.default #subnav {
+	padding: 5px 0px; overflow: hidden; border-top-color: rgb(255, 255, 255); border-top-width: 1px; border-top-style: solid;
+}
+.default #subnav ul li a {
+	padding: 5px 10px; border-radius: 8px; color: rgb(0, 102, 187); line-height: 20px; font-family: "Lucida Grande", "Verdana", sans-serif; font-size: 16px; font-weight: normal; display: block; -webkit-border-radius: 8px; -moz-border-radius: 8px;
+}
+.default #subnav ul li a:hover {
+	color: rgb(0, 102, 187); -webkit-box-shadow: 0 1px 1px rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.12) 0px 1px 1px inset; -moz-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.12) 0px 0px 10px inset;
+}
+.default #subnav ul li a.active {
+	background: rgb(0, 102, 187); color: rgb(255, 255, 255); -webkit-box-shadow: 0 1px 1px rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.12) 0px 1px 1px inset; -moz-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.12) 0px 0px 10px inset;
+}
+.member_select_list {
+	width: 740px; float: right;
+}
+.member_select {
+	margin: 5px; padding: 5px 5px 7px 10px; border-radius: 5px; border: 1px solid rgb(221, 221, 221); width: 217px; display: inline-block; background-color: rgb(249, 249, 249); -webkit-border-radius: 5px; -moz-border-radius: 5px;
+}
+.non_teammate {
+	border: 1px solid rgb(196, 209, 214); background-color: rgb(221, 236, 239);
+}
+.member_select img.open {
+	margin: 0px; border: currentColor; height: 20px; float: right;
+}
+.member_select span.devices {
+	background: url("../img/icon_iphone_7x14.png") no-repeat 0px 2px; font: 14px/20px "AxelRegular", "Lucida Grande", "Verdana", sans-serif; margin: 5px 0px 0px; padding: 0px 0px 0px 12px; width: 15px; color: rgb(69, 69, 69); float: right; font-size-adjust: none; font-stretch: normal; text-shadow: 1px 1px 1px #ffffff;
+}
+.member_select span.downloaded {
+	background: url("../img/icon_accepted_13.png") no-repeat 0px 2px; margin: 5px 0px 0px; padding: 0px 0px 0px 12px; width: 15px; float: right;
+}
+.member_select span.arrow {
+	background: url("../img/icon_arrow_bullet.png") no-repeat 0px 0px; margin: 8px 5px 0px 0px; width: 8px; height: 9px; float: right;
+}
+.member_select label span {
+	width: 135px; overflow: hidden; display: inline-block; white-space: nowrap; text-overflow: ellipsis;
+}
+.member_select label {
+	margin: 0px; padding: 0px; width: 100%; line-height: 18px; font-family: "AxelRegular", "Lucida Grande", "Verdana", sans-serif; font-size: 100%; font-weight: normal; float: none; display: inline; text-shadow: none;
+}
+.member_select img {
+	border: 1px solid white; height: 28px; margin-bottom: -10px;
+}
+.col3_container {
+	margin: 15px auto; width: 960px;
+}
+body.team_management #content .container {
+	margin: 0px auto; border-radius: 0px; width: 100%; box-shadow: 0px 0px 0px rgba(0,0,0,0.5); -webkit-box-shadow: 0 0 0px rgba(0, 0, 0, 0.5); -moz-box-shadow: 0 0 0px rgba(0, 0, 0, 0.5); -webkit-border-radius: 0px; -moz-border-radius: 0px;
+}
+.left_column {
+	background: rgb(243, 243, 243); margin: 0px 0px 25px; border-radius: 13px; width: 230px; float: left; min-height: 500px; box-shadow: 0px 0px 13px rgba(0,0,0,0.5); -webkit-box-shadow: 0 0 13px rgba(0, 0, 0, 0.5); -moz-box-shadow: 0 0 13px rgba(0, 0, 0, 0.5); -webkit-border-radius: 13px; -moz-border-radius: 13px;
+}
+.main_column {
+	background: rgb(243, 243, 243); margin: 0px 0px 25px 10px; border-radius: 13px; width: 385px; float: left; min-height: 500px; box-shadow: 0px 0px 13px rgba(0,0,0,0.5); -webkit-box-shadow: 0 0 13px rgba(0, 0, 0, 0.5); -moz-box-shadow: 0 0 13px rgba(0, 0, 0, 0.5); -webkit-border-radius: 13px; -moz-border-radius: 13px;
+}
+.right_column {
+	background: rgb(243, 243, 243); margin: 0px 0px 25px; border-radius: 13px; width: 320px; float: right; min-height: 500px; box-shadow: 0px 0px 13px rgba(0,0,0,0.5); -webkit-box-shadow: 0 0 13px rgba(0, 0, 0, 0.5); -moz-box-shadow: 0 0 13px rgba(0, 0, 0, 0.5); -webkit-border-radius: 13px; -moz-border-radius: 13px;
+}
+span.icon_user {
+	background: url("../img/icon_user_16.png") no-repeat 0px 0px; width: 16px; height: 16px; overflow: hidden; float: left;
+}
+span.icon_list {
+	background: url("../img/icon_distribution_lists_13x11_invert.png") no-repeat 0px 4px; width: 16px; height: 16px; overflow: hidden; float: left;
+}
+.left_column .scrolling_box {
+	height: 238px; overflow-x: hidden; overflow-y: auto;
+}
+.left_column ul {
+	list-style: none; margin: 0px; padding: 0px; width: 230px;
+}
+.left_column ul li {
+	margin: 0px;
+}
+.left_column ul li a {
+	font: 16px/24px "AxelRegular", "Lucida Grande", "Verdana", sans-serif; padding: 3px 10px 2px 28px; width: 203px; color: rgb(69, 69, 69); display: block; font-size-adjust: none; font-stretch: normal; text-shadow: 1px 1px 1px #ffffff;
+}
+.left_column ul li.selected {
+	background: rgb(207, 219, 231);
+}
+.left_column ul li:hover {
+	background: rgb(230, 230, 230);
+}
+.left_column ul li a span {
+	font: 14px/20px "AxelRegular", "Lucida Grande", "Verdana", sans-serif; margin: 2px 0px 0px; padding: 0px 3px; width: 15px; text-align: center; color: rgb(69, 69, 69); float: right; font-size-adjust: none; font-stretch: normal; text-shadow: 1px 1px 1px #ffffff;
+}
+.left_column ul li a span.unread {
+	background: rgb(72, 144, 203); border-radius: 5px; color: rgb(255, 255, 255); text-shadow: none; -moz-border-radius: 5px;
+}
+.left_column ul li a span.recruited {
+	background: rgb(203, 170, 168); border-radius: 5px; color: rgb(255, 255, 255); text-shadow: none; -moz-border-radius: 5px;
+}
+.left_column ul li a span.arrow {
+	background: url("../img/icon_arrow_bullet.png") no-repeat 0px 0px; margin: 6px 5px 0px; width: 8px; height: 9px;
+}
+.left_column ul li a span.noarrow {
+	margin: 8px 5px 0px; width: 8px; height: 9px;
+}
+.left_column h2 {
+	background: rgb(33, 54, 70); font: 22px/42px "Axelbold", "Lucida Grande", "Verdana", sans-serif; margin: 10px 0px 0px; padding: 3px 0px 0px 14px; color: rgb(255, 255, 255); border-top-color: rgb(212, 212, 212); border-bottom-color: rgb(180, 180, 180); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid; font-size-adjust: none; font-stretch: normal;
+}
+.left_column h2 span {
+	margin: 10px 5px 0px 0px;
+}
+.left_column h2.first {
+	border-width: medium medium 1px; border-style: none none solid; border-color: currentColor currentColor rgb(255, 255, 255); margin: 0px; padding: 5px 0px 0px 14px; border-top-left-radius: 13px; border-top-right-radius: 13px; -moz-border-radius-topleft: 13px; -moz-border-radius-topright: 13px;
+}
+h2 a.add_button {
+	background: url("../img/button_add_green.png") no-repeat 0px 0px; margin: 11px 10px 0px 0px; padding: 0px; width: 21px; height: 21px; float: right;
+}
+a.attach_profile {
+	background: url("../img/button_add_green.png") no-repeat 0px -3px; margin: 11px 10px 0px 0px; padding: 0px 0px 0px 25px; width: 21px; height: 21px;
+}
+.main_column h2 {
+	background: rgb(33, 54, 70); border-width: medium medium 1px; border-style: none none solid; border-color: currentColor currentColor rgb(255, 255, 255); font: 22px/42px "Axelbold", "Lucida Grande", "Verdana", sans-serif; margin: 0px; padding: 5px 0px 3px 14px; color: rgb(255, 255, 255); font-size-adjust: none; font-stretch: normal; border-top-left-radius: 13px; border-top-right-radius: 13px; -moz-border-radius-topleft: 13px; -moz-border-radius-topright: 13px;
+}
+.main_column .recruited a {
+	font: 14px/18px AxelRegular, "Lucida Grande", Verdana, sans-serif; color: rgb(42, 120, 237); font-size-adjust: none; font-stretch: normal;
+}
+.main_column h2 span {
+	font: 14px/20px "AxelRegular", "Lucida Grande", "Verdana", sans-serif; margin: 0px; padding: 0px 0px 0px 3px; color: rgb(226, 226, 226); vertical-align: middle; font-size-adjust: none; font-stretch: normal;
+}
+.main_column h2 a.edit {
+	font: 14px/14px "AxelBold", "Lucida Grande", "Verdana", sans-serif; margin: 11px 15px 0px 0px; padding: 0px; color: rgb(171, 189, 208); float: right; font-size-adjust: none; font-stretch: normal;
+}
+.main_column h2 a.edit:hover {
+	color: rgb(153, 153, 153);
+}
+.main_column .filters {
+	height: 33px; border-bottom-color: rgb(212, 212, 212); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.main_column .filters p {
+	font: 14px/20px "AxelRegular", "Lucida Grande", "Verdana", sans-serif; padding: 7px 0px 0px 10px; float: left; font-size-adjust: none; font-stretch: normal;
+}
+.main_column .filters p a {
+	color: rgb(42, 120, 237);
+}
+.main_column .filters p a:hover {
+	color: rgb(153, 153, 153);
+}
+.main_column .filters select {
+	font: 15px/20px "AxelRegular", "Lucida Grande", "Verdana", sans-serif; margin: 7px 15px 0px 0px; float: right; font-size-adjust: none; font-stretch: normal;
+}
+.main_column .teammates_list {
+	height: 400px; overflow: auto; clear: both;
+}
+.main_column .teammates_list ul {
+	list-style: none; margin: 0px; padding: 0px;
+}
+.main_column .teammates_list ul li {
+	font: 14px/20px "AxelRegular", "Lucida Grande", "Verdana", sans-serif; margin: 0px; padding: 0px; height: 34px; color: rgb(69, 69, 69); border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(212, 212, 212); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid; font-size-adjust: none; font-stretch: normal; text-shadow: 1px 1px 1px #ffffff;
+}
+.main_column .teammates_list ul li:hover {
+	
+}
+.main_column .teammates_list ul li:first-child {
+	border-top-color: currentColor; border-top-width: medium; border-top-style: none;
+}
+.main_column .teammates_list ul li.selected:hover {
+	background: rgb(207, 219, 231);
+}
+.main_column .teammates_list ul li.selected {
+	background: rgb(207, 219, 231);
+}
+.main_column .teammates_list ul li input {
+	margin: 11px 0px 0px 10px; padding: 0px; float: left;
+}
+.main_column .teammates_list ul li img {
+	margin: 2px 0px 0px 10px; padding: 0px; float: left;
+}
+.main_column .teammates_list ul li span.name {
+	margin: 8px 0px 0px 10px; padding: 0px; float: left;
+}
+.main_column .teammates_list ul li span.devices {
+	background: url("../img/icon_iphone_7x14.png") no-repeat 0px 2px; margin: 8px 10px 0px 0px; padding: 0px 0px 0px 12px; width: 15px; float: right;
+}
+.main_column .teammates_list ul li span.gray.devices {
+	background: url("../img/icon_iphone_7x14gray.png") no-repeat 0px 2px; color: rgb(153, 153, 153);
+}
+.main_column .teammates_list ul li span.arrow {
+	background: url("../img/icon_arrow_bullet.png") no-repeat 0px 0px; margin: 13px 10px 0px 0px; width: 8px; height: 9px; float: right;
+}
+.main_column .teammates_list ul li span.noarrow {
+	margin: 8px 10px 0px 0px; width: 8px; height: 9px; float: right;
+}
+.right_column h2 {
+	background: rgb(33, 54, 70); border-width: medium medium 1px; border-style: none none solid; border-color: currentColor currentColor rgb(255, 255, 255); font: 22px/42px "Axelbold", "Lucida Grande", "Verdana", sans-serif; margin: 0px; padding: 5px 0px 3px 14px; color: rgb(255, 255, 255); font-size-adjust: none; font-stretch: normal; border-top-left-radius: 13px; border-top-right-radius: 13px; -moz-border-radius-topleft: 13px; -moz-border-radius-topright: 13px;
+}
+.right_column .profile {
+	height: 150px; border-top-color: rgb(255, 255, 255); border-top-width: 1px; border-top-style: solid;
+}
+.right_column .profile .avatar {
+	margin: 14px 15px 0px 16px; width: 56px; height: 56px; float: left;
+}
+.right_column .profile .meta_data {
+	margin: 0px; width: 180px; height: 140px; float: left;
+}
+.right_column .profile .meta_data .name {
+	font: 20px/24px "AxelRegular", "Lucida Grande", "Verdana", sans-serif; margin: 11px 0px 0px; width: 223px; color: rgb(51, 51, 51); overflow: hidden; float: left; white-space: nowrap; text-overflow: ellipsis; font-size-adjust: none; font-stretch: normal;
+}
+.right_column .profile .meta_data .can_manage {
+	font: 14px/18px "AxelRegular", "Lucida Grande", "Verdana", sans-serif; margin: 0px; float: left; font-size-adjust: none; font-stretch: normal;
+}
+.right_column .profile .meta_data .can_manage label {
+	font: 14px/18px "AxelBold", "Lucida Grande", "Verdana", sans-serif; padding: 10px 20px 0px; float: none; font-size-adjust: none; font-stretch: normal;
+}
+.right_column .profile .meta_data .email {
+	font: 14px/18px "AxelRegular", "Lucida Grande", "Verdana", sans-serif; margin: 0px; float: left; font-size-adjust: none; font-stretch: normal;
+}
+.right_column .profile .meta_data .email a {
+	color: rgb(42, 120, 237);
+}
+.right_column .profile .meta_data .email a:hover {
+	color: rgb(153, 153, 153);
+}
+.right_column .profile .meta_data .member_since {
+	background: url("../img/icon_accepted_13.png") no-repeat 0px 2px; font: 12px/18px "AxelRegular", "Lucida Grande", "Verdana", sans-serif; margin: 10px 0px 0px; padding: 0px 0px 0px 18px; float: left; font-size-adjust: none; font-stretch: normal;
+}
+.right_column .profile .meta_data .remove_button {
+	margin: 13px 0px 0px; float: left;
+}
+.right_column .scrolling_box {
+	background: rgb(243, 243, 243); height: 288px; overflow: auto;
+}
+.right_column .scrolling_box h4 {
+	background: url("../img/icon_iphone_10x18.png") no-repeat 15px 2px; border-width: 1px medium; border-style: solid none; border-color: rgb(187, 187, 187) currentColor rgb(255, 255, 255); font: 18px/22px "AxelRegular", "Lucida Grande", "Verdana", sans-serif; margin: 0px; padding: 10px 0px 3px 32px; height: 28px; color: rgb(51, 51, 51); font-size-adjust: none; font-stretch: normal;
+}
+.right_column .scrolling_box .devices h4 {
+	background: url("../img/icon_iphone_10x18.png") no-repeat 15px 11px;
+}
+.right_column .scrolling_box .distribution_lists h4 {
+	background: url("../img/icon_distribution_lists_13x11.png") no-repeat 15px 15px;
+}
+.right_column .scrolling_box .distribution_lists label {
+	float: none; display: inline;
+}
+.right_column .scrolling_box h4 span {
+	font: 14px/20px "AxelRegular", "Lucida Grande", "Verdana", sans-serif; margin: 2px 10px 0px 0px; padding: 0px 0px 0px 3px; color: rgb(109, 109, 109); vertical-align: middle; float: right; font-size-adjust: none; font-stretch: normal;
+}
+.right_column .scrolling_box h4 span a {
+	color: rgb(42, 120, 237);
+}
+.right_column .scrolling_box h4 span a:hover {
+	color: rgb(153, 153, 153);
+}
+.right_column .scrolling_box ul {
+	list-style: none; margin: 0px; padding: 0px;
+}
+.right_column .scrolling_box ul li {
+	font: 14px/20px "AxelRegular", "Lucida Grande", "Verdana", sans-serif; margin: 0px 10px; padding: 3px 0px; color: rgb(69, 69, 69); font-size-adjust: none; font-stretch: normal; text-shadow: 1px 1px 1px #ffffff;
+}
+.right_column .scrolling_box ul li:nth-child(2n+1) {
+	background: rgb(255, 255, 255);
+}
+.right_column .scrolling_box ul li .iphone {
+	background: url("../img/icon_iphone_16x27.png") no-repeat 8px 3px; height: 34px;
+}
+.right_column .scrolling_box ul li .ipod {
+	background: url("../img/icon_iphone_16x27.png") no-repeat 8px 3px; height: 34px;
+}
+.right_column .scrolling_box ul li .ipad {
+	background: url("../img/device_ipad.png") no-repeat 8px 3px; height: 34px;
+}
+.right_column .scrolling_box ul li .device_type {
+	font: 12px/14px "AxelRegular", "Lucida Grande", "Verdana", sans-serif; margin: 3px 0px 0px 35px; color: rgb(0, 0, 0); font-size-adjust: none; font-stretch: normal;
+}
+.right_column .scrolling_box ul li .device_ID {
+	font: 12px/14px "AxelRegular", "Lucida Grande", "Verdana", sans-serif; margin: 0px 0px 0px 35px; color: rgb(99, 99, 99); font-size-adjust: none; font-stretch: normal;
+}
+.right_column .scrolling_box .distribution_lists ul li {
+	width: 290px; height: 20px;
+}
+.right_column .scrolling_box ul li input {
+	font: 12px/14px "AxelRegular", "Lucida Grande", "Verdana", sans-serif; margin: 4px 5px 0px 8px; color: rgb(99, 99, 99); float: left; font-size-adjust: none; font-stretch: normal;
+}
+.right_column .scrolling_box ul li span {
+	font: 14px/18px "AxelRegular", "Lucida Grande", "Verdana", sans-serif; margin: 2px 5px 0px 4px; color: rgb(99, 99, 99); float: left; font-size-adjust: none; font-stretch: normal;
+}
+pre {
+	background: rgb(240, 240, 240); margin: 0px; padding: 0px; border: 1px solid rgb(204, 204, 204); line-height: 20px; font-size: 12px;
+}
+pre code {
+	margin: 0px 0px 0px 10px; padding: 0px; display: block;
+}
+body.build_report #content .container {
+	
+}
+.build_report_container .col1 {
+	width: 248px; overflow: hidden; border-top-color: rgb(255, 255, 255); border-top-width: 1px; border-top-style: solid; float: left; min-height: 425px;
+}
+.build_report_container .col4 {
+	padding: 0px 17px 0px 0px; width: 693px; border-top-color: rgb(255, 255, 255); border-left-color: rgb(201, 201, 201); border-top-width: 1px; border-left-width: 1px; border-top-style: solid; border-left-style: solid; float: left; min-height: 425px;
+}
+.build_report_container .title {
+	padding: 5px 10px; overflow: hidden; border-top-color: white; border-bottom-color: rgb(180, 180, 180); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid; text-shadow: white 0px 1px 1px;
+}
+.build_report_container .title h4 {
+	margin: 5px 0px 0px 5px; color: rgb(109, 109, 109); line-height: 24px; font-family: "AxelBold", "Lucida Grande", "Verdana", sans-serif; font-size: 21px; font-weight: normal;
+}
+.build_report_container .col1 ul {
+	list-style: none; margin: 0px; padding: 10px 0px 0px; height: 360px; overflow-x: hidden; overflow-y: auto; min-height: 312px;
+}
+.build_report_container .col1 ul li {
+	font: 14px/18px "AxelRegular", "Lucida Grande", "Verdana", sans-serif; padding: 0px; color: rgb(125, 125, 125); font-size-adjust: none; font-stretch: normal;
+}
+.build_report_container .col1 ul li a {
+	font: 14px/18px "AxelRegular", "Lucida Grande", "Verdana", sans-serif; margin: 1px 10px; padding: 0px; width: 215px; color: rgb(125, 125, 125); float: left; cursor: default; font-size-adjust: none; font-stretch: normal;
+}
+.build_report_container .col1 ul li:nth-child(2n+1) a {
+	background: rgb(236, 236, 236);
+}
+.build_report_container .col1 ul li a span.avatar {
+	margin: 4px 6px 0px 4px; border: 1px solid white; width: 28px; height: 28px; float: left;
+}
+.build_report_container .col1 ul li a p {
+	font: 13px/16px "AxelRegular", "Lucida Grande", "Verdana", sans-serif; padding: 3px 0px 5px; width: 173px; color: rgb(51, 51, 51); float: left; display: block; font-size-adjust: none; font-stretch: normal; text-shadow: 1px 1px 1px #ffffff;
+}
+.build_report_container .col1 ul li a span.name {
+	font: 13px/16px "AxelRegular", "Lucida Grande", "Verdana", sans-serif; color: rgb(44, 127, 196); font-size-adjust: none; font-stretch: normal;
+}
+.build_report_container .col1 ul li a span.gray {
+	font: 13px/16px "AxelRegular", "Lucida Grande", "Verdana", sans-serif; color: rgb(125, 125, 125); font-size-adjust: none; font-stretch: normal;
+}
+.build_report_container .col1 ul li a span.red {
+	font: 13px/16px "AxelRegular", "Lucida Grande", "Verdana", sans-serif; color: rgb(204, 0, 0); font-size-adjust: none; font-stretch: normal;
+}
+.build_report_container .col1 ul li a span.bug {
+	background: url("../img/icon_bug_13x13.png") no-repeat 1px 1px; font: 13px/16px "AxelRegular", "Lucida Grande", "Verdana", sans-serif; padding: 0px 0px 0px 18px; width: 16px; height: 13px; color: rgb(125, 125, 125); position: absolute; font-size-adjust: none; font-stretch: normal;
+}
+.build_report_container .col1 ul li a span.question {
+	background: url("../img/icon_question_13x13.png") no-repeat 1px 1px; font: 13px/16px "AxelRegular", "Lucida Grande", "Verdana", sans-serif; padding: 0px 0px 0px 18px; width: 16px; height: 13px; color: rgb(125, 125, 125); font-size-adjust: none; font-stretch: normal;
+}
+.build_report_container .col1 ul li a span.timestamp {
+	font: 11px/14px "AxelRegular", "Lucida Grande", "Verdana", sans-serif; width: 173px; height: 9px; color: rgb(125, 125, 125); float: left; font-size-adjust: none; font-stretch: normal;
+}
+.build_report_container .status {
+	width: 694px;
+}
+.build_report_container .status_container {
+	padding: 10px;
+}
+.build_report_container .status_container table {
+	margin: 0px; padding: 0px;
+}
+.build_report_container .status_container table tr {
+	font: 15px/20px "AxelRegular", "Lucida Grande", "Verdana", sans-serif; margin: 1px 10px 2px; width: 100%; height: 35px; color: rgb(51, 51, 51); cursor: default; font-size-adjust: none; font-stretch: normal; text-shadow: 0 1px 0 #ffffff;
+}
+.build_report_container .status_container table thead tr {
+	font: 15px/20px "AxelRegular", "Lucida Grande", "Verdana", sans-serif; list-style: none; margin: 1px 10px 2px; width: 100%; height: 25px; color: rgb(51, 51, 51); cursor: default; font-size-adjust: none; font-stretch: normal; text-shadow: 0 1px 0 #ffffff;
+}
+.build_report_container .status_container table tr:nth-child(2n) {
+	background-color: rgb(250, 250, 250);
+}
+.build_report_container .status_container table td {
+	padding: 3px; height: 18px; vertical-align: middle; white-space: nowrap;
+}
+.build_report_container .status_container table td.feedback {
+	background: url("../img/icon_feedback.png") no-repeat 0px 8px; font: 12px/12px AxelRegular, sans-serif; margin: 0px 10px 0px 0px; padding: 10px 0px 0px; width: 25px; height: 20px; text-align: center; color: rgb(255, 255, 255); float: left; font-size-adjust: none; font-stretch: normal;
+}
+.build_report_container .status_container table th.status_legend {
+	width: 90px;
+}
+.build_report_container .status_container table td.avatar img {
+	margin: 0px 6px 0px 0px; border: 1px solid white; width: 28px; height: 28px;
+}
+.build_report_container .status_container table td.user {
+	width: 167px; color: rgb(0, 102, 187); overflow: hidden;
+}
+.build_report_container .status_container table td.user a {
+	color: rgb(0, 102, 187);
+}
+.build_report_container .status_container table td.device {
+	width: 140px; overflow: hidden;
+}
+.build_report_container .status_container table td.latest {
+	width: 70px; overflow: hidden; padding-right: 10px;
+}
+.build_report_container .status_container table td.latest a {
+	color: rgb(0, 102, 187);
+}
+.build_report_container .status_container table td.date {
+	width: 135px; color: rgb(85, 85, 85); overflow: hidden;
+}
+.build_report_container .status_container table td.status {
+	width: 90px; color: rgb(85, 85, 85);
+}
+.build_report_container .status_container table td span.led {
+	border-width: 1px; border-style: solid; border-color: rgba(0, 0, 0, 0.2) rgba(0, 0, 0, 0.2) rgba(0, 0, 0, 0.5); border-radius: 12px; width: 10px; height: 10px; margin-top: 3px; margin-right: 3px; float: left; box-shadow: rgba(0,0,0,0.5), 0px 1px 1px; -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0px 1px 2px; -moz-box-shadow: rgba(0, 0, 0, 0.5), 0 1px 1px; -webkit-border-radius: 12px; -moz-border-radius: 12px;
+}
+.build_report_container .status_container table td span.pending.led {
+	background-color: rgb(127, 135, 140);
+}
+.build_report_container .status_container table td span.installed.led {
+	background-color: rgb(70, 187, 28);
+}
+.build_report_container .status_container table td span.profile_installed.led {
+	
+}
+.build_report_container .status_container table td span.bounced.led {
+	background-color: rgb(187, 28, 28);
+}
+.build_report_container .status_container table td span.delivered.led {
+	background-color: rgb(255, 198, 0);
+}
+.build_report_container .status_container table td span.opened.led {
+	background-color: rgb(255, 198, 0);
+}
+.build_report_container .status_container table td span.clicked.led {
+	background-color: rgb(255, 198, 0);
+}
+.build_report_container .status_container table td span.processed.led {
+	background-color: rgb(255, 198, 0);
+}
+.build_report_container .status_container table th.user {
+	margin: 5px 5px 0px 0px; text-align: left; color: rgb(68, 68, 68); line-height: 20px; font-family: AxelBold, "Lucida Grande", Verdana, sans-serif; font-size: 15px; font-weight: normal; text-shadow: none;
+}
+.build_report_container .status_container table th.device {
+	margin: 5px 5px 0px 0px; text-align: left; color: rgb(68, 68, 68); line-height: 20px; font-family: AxelBold, "Lucida Grande", Verdana, sans-serif; font-size: 15px; font-weight: normal; text-shadow: none;
+}
+.build_report_container .status_container table th.latest {
+	margin: 5px 5px 0px 0px; text-align: left; color: rgb(68, 68, 68); line-height: 20px; font-family: AxelBold, "Lucida Grande", Verdana, sans-serif; font-size: 15px; font-weight: normal; text-shadow: none;
+}
+.build_report_container .status_container table th.date {
+	margin: 5px 5px 0px 0px; text-align: left; color: rgb(68, 68, 68); line-height: 20px; font-family: AxelBold, "Lucida Grande", Verdana, sans-serif; font-size: 15px; font-weight: normal; text-shadow: none;
+}
+.build_report_container .status_container table th.status_legend {
+	margin: 5px 5px 0px 0px; text-align: left; color: rgb(68, 68, 68); line-height: 20px; font-family: AxelBold, "Lucida Grande", Verdana, sans-serif; font-size: 15px; font-weight: normal; text-shadow: none;
+}
+.build_report_container .status_container table th.user {
+	margin: 5px 5px 0px 0px; text-align: left; color: rgb(68, 68, 68); line-height: 20px; font-family: AxelBold, "Lucida Grande", Verdana, sans-serif; font-size: 15px; font-weight: normal; text-shadow: none;
+}
+.build_report_container .status_container table th.avatar {
+	margin: 0px 6px 0px 0px; border: currentColor;
+}
+.build_report_container .status_container table th.latest {
+	margin: 5px 5px 0px 0px; border: currentColor;
+}
+.installs_container {
+	width: 215px; height: 75px; float: right;
+}
+.installs_container .downloaded {
+	margin: 0px 0px 0px 9px; width: 94px; height: 62px; float: left;
+}
+.installs_container .downloaded .counter {
+	background: rgb(219, 219, 221); border-width: 1px; border-style: solid; border-color: rgb(255, 255, 255) rgb(170, 170, 170) rgb(170, 170, 170) rgb(255, 255, 255); font: 43px/50px "AxelBold", "Lucida Grande", "Verdana", sans-serif; padding: 7px 0px 0px; border-radius: 4px; width: 94px; height: 47px; text-align: center; color: rgb(126, 126, 126); float: left; font-size-adjust: none; font-stretch: normal; -webkit-box-shadow: rgba(0, 0, 0, 0.2) 2px 2px 15px inset; -moz-box-shadow: rgba(0, 0, 0, 0.2) 2px 2px 15px inset; text-shadow: 0px -1px 0px #374683; -webkit-border-radius: 4px; -moz-border-radius: 4px;
+}
+.installs_container .did_not_download {
+	margin: 0px 12px 0px 0px; width: 94px; height: 36px; float: right;
+}
+.installs_container .did_not_download .counter {
+	background: rgb(219, 219, 221); border-width: 1px; border-style: solid; border-color: rgb(255, 255, 255) rgb(170, 170, 170) rgb(170, 170, 170) rgb(255, 255, 255); font: 43px/50px "AxelBold", "Lucida Grande", "Verdana", sans-serif; padding: 7px 0px 0px; border-radius: 4px; width: 94px; height: 47px; text-align: center; color: rgb(167, 92, 92); float: left; font-size-adjust: none; font-stretch: normal; -webkit-box-shadow: rgba(0, 0, 0, 0.2) 2px 2px 15px inset; -moz-box-shadow: rgba(0, 0, 0, 0.2) 2px 2px 15px inset; text-shadow: 0px -1px 0px #374683; -webkit-border-radius: 4px; -moz-border-radius: 4px;
+}
+.installs_container .downloaded .description {
+	background: rgb(226, 226, 226); font: 11px/14px "AxelRegular", "Lucida Grande", "Verdana", sans-serif; margin: 2px 0px 0px; padding: 4px 0px 0px; width: 96px; height: 16px; text-align: center; color: rgb(51, 51, 51); text-transform: uppercase; letter-spacing: 0em; float: left; font-size-adjust: none; font-stretch: normal; text-shadow: 0 1px 0 #ffffff;
+}
+.installs_container .did_not_download .description {
+	background: rgb(226, 226, 226); font: 11px/14px "AxelRegular", "Lucida Grande", "Verdana", sans-serif; margin: 2px 0px 0px; padding: 4px 0px 0px; width: 96px; height: 16px; text-align: center; color: rgb(51, 51, 51); text-transform: uppercase; letter-spacing: 0em; float: left; font-size-adjust: none; font-stretch: normal; text-shadow: 0 1px 0 #ffffff;
+}
+.installs_container .downloaded .description strong {
+	font: 11px/14px "AxelRegular", "Lucida Grande", "Verdana", sans-serif; color: rgb(204, 0, 0); font-size-adjust: none; font-stretch: normal;
+}
+.installs_container .did_not_download .description strong {
+	font: 11px/14px "AxelRegular", "Lucida Grande", "Verdana", sans-serif; color: rgb(204, 0, 0); font-size-adjust: none; font-stretch: normal;
+}
+.installs_container .fold {
+	margin: -47px 0px 0px 1px; width: 94px; height: 0px; border-top-color: rgb(187, 187, 187); border-bottom-color: rgb(231, 231, 231); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid; float: left; position: relative;
+}
+.installs_container .installs.title {
+	background: url("../img/icon_installs_14x14.png") no-repeat 10px 1px;
+}
+.installs_container .title a {
+	font: 15px/18px AxelRegular, "Lucida Grande", Verdana, sans-serif; margin: 0px 0px 0px 10px; padding: 0px 0px 0px 20px; color: rgb(51, 51, 51); display: block; font-size-adjust: none; font-stretch: normal;
+}
+.feedback_container {
+	background: rgb(240, 240, 240); width: 100%; overflow: hidden; border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(201, 201, 201); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid; text-shadow: 0 1px 1px #ffffff;
+}
+.feedback_container .thread_container {
+	background: url("../img/bg_feedback_thread.jpg") repeat-y left top; padding: 20px 0px; width: 960px; border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(204, 204, 204); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid; float: left;
+}
+.thread_container .thread {
+	padding: 0px; width: 960px; float: left;
+}
+.thread_container .thread .who {
+	padding: 0px 20px; width: 220px; float: left; min-height: 85px;
+}
+.thread_container .thread .who ul {
+	list-style: none; margin: 0px; padding: 0px;
+}
+.thread_container .thread .who ul li {
+	font: 14px/18px "AxelRegular", "Lucida Grande", "Verdana", sans-serif; margin: 1px 10px 1px 6px; padding: 0px; width: 229px; color: rgb(125, 125, 125); float: left; cursor: default; font-size-adjust: none; font-stretch: normal;
+}
+.thread_container .thread .who ul li span.avatar {
+	margin: 0px 8px 0px 0px; padding: 0px; border: 2px solid rgb(230, 230, 230); width: 60px; height: 60px; float: left;
+}
+.thread_container .thread .who ul li span.avatar img {
+	width: 60px; height: 60px;
+}
+.thread_container .thread .who ul li span.name {
+	font: 15px/18px "AxelRegular", "Lucida Grande", "Verdana", sans-serif; padding: 5px 0px 0px; width: 130px; float: left; font-size-adjust: none; font-stretch: normal;
+}
+.thread_container .thread .who ul li span.name a {
+	color: rgb(0, 74, 139);
+}
+.thread_container .thread .who ul li span.email a {
+	color: rgb(102, 102, 102);
+}
+.thread_container .thread .who ul li span.name a:hover {
+	color: rgb(170, 170, 170);
+}
+.thread_container .thread .who ul li span.email a:hover {
+	color: rgb(170, 170, 170);
+}
+.thread_container .thread .who ul li span.timestamp {
+	font: 12px/14px "AxelRegular", "Lucida Grande", "Verdana", sans-serif; padding: 5px 0px 0px; width: 130px; float: left; font-size-adjust: none; font-stretch: normal;
+}
+.thread_container .thread .who ul li span.category {
+	font: 12px/14px "AxelRegular", "Lucida Grande", "Verdana", sans-serif; padding: 0px; width: auto; float: left; font-size-adjust: none; font-stretch: normal;
+}
+.thread_container .thread .who ul li span.category strong {
+	font: 12px/16px "AxelBold", "Lucida Grande", "Verdana", sans-serif; font-size-adjust: none; font-stretch: normal;
+}
+.thread_container .thread .who ul li span.email {
+	font: 13px/15px "AxelRegular", "Lucida Grande", "Verdana", sans-serif; padding: 5px 0px 0px; width: 130px; text-transform: capitalize; float: left; font-size-adjust: none; font-stretch: normal;
+}
+.thread_container .thread .message {
+	padding: 0px 20px 0px 0px; width: 650px; float: left;
+}
+.thread_container .thread .message p {
+	font: 15px/22px AxelRegular, "Lucida Grande", Verdana, sans-serif; padding: 0px 0px 5px; width: 670px; float: left; font-size-adjust: none; font-stretch: normal;
+}
+.thread_container .thread .message p.images {
+	background: rgb(211, 228, 239); padding: 9px 5px; float: left;
+}
+.thread_container .thread .message p.images a {
+	padding: 0px 5px; float: left; display: block;
+}
+.thread_container .thread .message span {
+	font: italic 14px/18px AxelRegular, "Lucida Grande", Verdana, sans-serif; padding: 0px; width: 650px; float: left; font-size-adjust: none; font-stretch: normal;
+}
+.thread_container .thread .message p a {
+	color: rgb(0, 74, 139);
+}
+.thread_container .thread .message p a:hover {
+	color: rgb(170, 170, 170);
+}
+.thread_container .response.thread {
+	padding: 25px 0px 0px 222px; width: 740px; float: left;
+}
+.thread_container .response.thread .who {
+	background: rgb(230, 230, 230); margin: 0px 20px 3px 35px; padding: 4px 5px 3px 6px; width: 670px; float: left; min-height: 5px;
+}
+.thread_container .response.thread .who ul {
+	list-style: none; margin: 0px; padding: 0px; overflow-x: hidden; overflow-y: auto;
+}
+.thread_container .response.thread .who ul li {
+	font: 14px/18px "AxelRegular", "Lucida Grande", "Verdana", sans-serif; margin: 1px 10px 1px 0px; padding: 0px; width: 600px; color: rgb(125, 125, 125); float: left; cursor: default; font-size-adjust: none; font-stretch: normal;
+}
+.thread_container .response.thread .who ul li span.avatar {
+	padding: 0px 1px 0px 0px; width: 25px; height: 25px; float: left;
+}
+.thread_container .response.thread .who ul li span.avatar img {
+	width: 25px; height: 25px;
+}
+.thread_container .response.thread .who ul li span.name {
+	font: 15px/18px "AxelRegular", "Lucida Grande", "Verdana", sans-serif; padding: 6px 10px 0px 0px; width: auto; float: left; font-size-adjust: none; font-stretch: normal;
+}
+.thread_container .response.thread .who ul li span.timestamp {
+	font: 12px/14px "AxelRegular", "Lucida Grande", "Verdana", sans-serif; padding: 9px 10px 0px 0px; width: auto; float: left; font-size-adjust: none; font-stretch: normal;
+}
+.thread_container .response.thread .who ul li span.email {
+	font: 12px/14px "AxelRegular", "Lucida Grande", "Verdana", sans-serif; padding: 9px 10px 0px 0px; width: auto; text-transform: capitalize; float: left; font-size-adjust: none; font-stretch: normal;
+}
+.thread_container .response.thread .message {
+	padding: 2px 20px 0px 39px; width: 650px; float: left;
+}
+.thread_container .response.thread .message p {
+	font: 15px/22px AxelRegular, "Lucida Grande", Verdana, sans-serif; padding: 0px 0px 5px; width: 670px; float: left; font-size-adjust: none; font-stretch: normal;
+}
+.thread_container .response.thread .message p.images {
+	background: rgb(211, 228, 239); padding: 9px 5px; float: left;
+}
+.thread_container .response.thread .message p.images a {
+	padding: 0px 5px; float: left; display: block;
+}
+.thread_container .response.thread .message span {
+	font: italic 14px/18px AxelRegular, "Lucida Grande", Verdana, sans-serif; padding: 0px; width: 650px; float: left; font-size-adjust: none; font-stretch: normal;
+}
+.thread_container .thread .message h3 {
+	font: 24px/31px AxelRegular, "Lucida Grande", Verdana, sans-serif; padding: 0px 0px 12px; width: 675px; float: left; font-size-adjust: none; font-stretch: normal;
+}
+.thread_container .reply {
+	margin: 0px; padding: 0px; float: left;
+}
+.thread_container .collapsed.reply {
+	width: 550px; height: 0px; float: left; position: relative;
+}
+.thread_container .collapsed.reply p {
+	margin: -20px 0px 0px; width: 550px; height: 0px; float: left; position: relative;
+}
+.thread_container .collapsed.reply p a {
+	background: rgb(255, 255, 255); margin: -60px 0px 0px 120px; padding: 3px 8px; color: rgb(0, 74, 139);
+}
+.thread_container .collapsed.reply p a:hover {
+	background: rgb(243, 243, 243); color: rgb(51, 51, 51);
+}
+.thread_container .collapsed.reply textarea {
+	font: 14px/15px AxelRegular, "Lucida Grande", Verdana, sans-serif; width: 500px; height: 15px; font-size-adjust: none; font-stretch: normal;
+}
+.thread_container .expanded.reply textarea {
+	font: 16px/22px AxelRegular, "Lucida Grande", Verdana, sans-serif; width: 500px; height: 80px; font-size-adjust: none; font-stretch: normal;
+}
+.thread_container .reply .uploading {
+	padding: 7px 0px 0px 2px; width: 300px; float: left; display: block;
+}
+.thread_container .reply .uploading span {
+	font: 13px/14px AxelRegular, "Lucida Grande", Verdana, sans-serif; width: 300px; color: rgb(51, 51, 51); float: left; font-size-adjust: none; font-stretch: normal;
+}
+.thread_container .reply .uploading p {
+	font: italic 13px/14px AxelRegular, "Lucida Grande", Verdana, sans-serif; margin: 5px 0px 0px 10px; width: 290px; color: rgb(51, 51, 51); float: left; font-size-adjust: none; font-stretch: normal;
+}
+.thread_container .reply .uploading input {
+	padding: 1px 0px 0px; float: left;
+}
+.thread_container .reply input.green_button {
+	margin: 8px 60px 0px 0px; float: right;
+}
+.reply_email_bar {
+	background: rgb(240, 240, 240); font: 12px/16px AxelRegular, "Lucida Grande", Verdana, sans-serif; padding: 5px 35px 6px 10px; width: 925px; text-align: right; border-bottom-color: rgb(201, 201, 201); border-bottom-width: 1px; border-bottom-style: solid; float: left; font-size-adjust: none; font-stretch: normal;
+}
+.reply_email_bar a {
+	color: rgb(0, 74, 139);
+}
+.reply_email_bar a:hover {
+	color: rgb(170, 170, 170);
+}
+.no_feedback_message {
+	background: rgb(240, 240, 240); font: 18px/22px AxelRegular, "Lucida Grande", Verdana, sans-serif; padding: 15px 20px; width: 920px; float: left; font-size-adjust: none; font-stretch: normal;
+}
+html body.tf_beta_sticker #page {
+	background: url("../img/bg_stars.png") no-repeat top; height: 750px; position: absolute; z-index: 2;
+}
+html body.tf_beta_sticker #header {
+	padding: 50px 0px 0px;
+}
+body.tf_beta_sticker .mascot_saluting {
+	margin: 0px auto -70px; width: 480px; height: 420px; position: relative; z-index: 999;
+}
+body.tf_beta_sticker .mascot_saluting img {
+	z-index: 9999;
+}
+.counter_container {
+	width: 430px; text-align: center;
+}
+body.tf_beta_sticker .counter_container .counter {
+	outline: red solid 1px; width: 260px; height: 80px; margin-left: 85px;
+}
+body.tf_beta_sticker .counter_container .tagline {
+	font: 12px/14px AxelRegular, "Lucida Grande", Verdana, sans-serif; margin: 5px 0px 15px 85px; width: 260px; height: 15px; color: rgb(0, 0, 0); font-size-adjust: none; font-stretch: normal;
+}
